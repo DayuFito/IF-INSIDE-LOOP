@@ -1,0 +1,13 @@
+<?php
+    echo "IF INSIDE LOOP";
+    echo "<br>";
+    for ($umur=1; $umur<=20; $umur++)
+		{
+		        echo "<br>";
+			echo "Umur saya sekarang : ".$umur." tahun.";
+			if ($umur==17)
+			{
+			   echo " Saya sudah Dewasa";
+			}
+		}
+?>
